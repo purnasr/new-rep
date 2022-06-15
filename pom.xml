@@ -107,7 +107,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>walmart Snapshot Nexus Repository </name>
-	      <url>http://4.221.7.222/:8081/repository/wallmat-snapshot/</url>
+	      <url>http://34.221.7.222/:8081/repository/wallmat-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
