@@ -2,7 +2,7 @@ node {
 
           stage('Build')
           {
-             echo "Build completed...."
+             echo "Build completed now...."
           }
 
           stage('Test')
