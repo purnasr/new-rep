@@ -1,4 +1,4 @@
-node('jenkins node 1')
+node('jenkins nodes')
  {
 
           stage('Build')
