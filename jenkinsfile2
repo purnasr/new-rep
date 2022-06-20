@@ -1,9 +1,9 @@
 node
  {
-
+ 
           stage('Build')
           {
-             echo "Build completed now...."
+             echo "Build master completed now...."
           }
 
           stage('Test')
