@@ -8,7 +8,7 @@ node
   
   echo "Jenkins Home is: --> ${env.JENKINS_HOME}"
   echo "Jenkins URL is: -->  ${env.JENKINS_URL}"
-  echo "JOB Name is: -->  ${env.JOB_NAME}"
+  echo "JOB Name for devlopment branch is: -->  ${env.JOB_NAME}"
   
   properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '3', daysToKeepStr: '', numToKeepStr: '3')), pipelineTriggers([pollSCM('* * * * * ')])])
   
